@@ -13,8 +13,8 @@ bot.on('ready', () => {
 });
 
 bot.on('message', message => {
-if(message.content.toLowerCase() === 'asddsaa3w23')
-   message.channel.send('Przyjdę do cb zaraz i zgwałce ci dom ❤️');
+if(message.content.toLowerCase() === '!bot')
+   message.channel.send('Chcesz mieć swojego bota skonfigurowanego pod siebie? Pisz do **@yyy... Tak#1959** po więcej informacji!');
     
 });
 
