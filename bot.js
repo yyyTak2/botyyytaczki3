@@ -6,7 +6,7 @@ bot.on('ready', () => {
     bot.user.setStatus('idle')
     bot.user.setPresence({
         game: {
-            name: '⛏️CHCESZ SWOJEGO BOTA? WPISZ !bot⛏️',
+            name: '⛏️CHCESZ SPERSONALIZOWANEGO BOTA POD SIEBIE NA SWÓJ SERWER? WPISZ !bot⛏️',
             type: 0
         }
     });
