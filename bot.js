@@ -14,7 +14,7 @@ bot.on('ready', () => {
 
 bot.on('message', message => {
 if(message.content.toLowerCase() === '!bot')
-   message.channel.send('Chcesz mieć swojego bota skonfigurowanego pod siebie? Pisz do **yyy... Tak#1337** po więcej informacji!');
+   message.channel.send('**Chcesz mieć swojego bota skonfigurowanego pod siebie? Pisz do yyy... Tak#0001 po więcej informacji!**');
     
 });
 
