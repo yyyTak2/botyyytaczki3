@@ -6,7 +6,7 @@ bot.on('ready', () => {
     bot.user.setStatus('idle')
     bot.user.setPresence({
         game: {
-            name: '             ❗ NIE ZROBIŁEŚ ❗',
+            name: '           ❗ NIE ZROBIŁEŚ/AŚ ❗',
             type: 0 
         }
     });
