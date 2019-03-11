@@ -6,14 +6,14 @@ bot.on('ready', () => {
     bot.user.setStatus('idle')
     bot.user.setPresence({
         game: {
-            name: '⛏️ Chcesz własnego bota na swój serwer? Wpisz "!bot" po więcej informacji! ⛏️',
+            name: '❗ ⬅️ ❗',
             type: 0 
         }
     });
 });
 
 bot.on('message', message => {
-if(message.content.toLowerCase() === '!bot')
+if(message.content.toLowerCase() === '!DSAD')
    message.channel.send('**Pisz do @yyy... Tak#0001 po więcej informacji!**');
     
 });
